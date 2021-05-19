@@ -14,4 +14,20 @@ Notification通知
 
 想要顯示通知時，可以使用NotificationCompat.Builder創建通知，在其中可以設置標題、消息、圖標、優先級、類別和更多自定義選項、然後傳遞此
 Notification對象到NotificationManagerCompat的notify方法中，必須傳遞一個ID，以後可以使用它來更新或取消此特定通知。
+文檔：
+
+NotificationManager：
+
+developer.android.com/reference/android/app/NotificationManager
+
+NotificationChannel：
+
+developer.android.com/reference/android/app/NotificationChannel
+NotificationCompat：
+
+developer.android.com/reference/android/support/v4/app/ NotificationCompat
+
+NotificationCompat.Builder：
+
+developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder
 #
